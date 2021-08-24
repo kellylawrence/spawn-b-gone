@@ -70,15 +70,12 @@ To use the original map file, just delete the modified one, remove `.bak` from t
 
 # **Additional Notes**
 ## **Does removing enemies from maps break anything?**
-Aside from the balance of the map as created by the original desiger, then not in any game breaking way that I've come across so far.
-
-I've tested the changes these scripts make in the original Quake game maps, as well as some fan map packs like [Underdark Overbright](https://www.quaddicted.com/reviews/udob.html) and [Arcane Dimensions](https://www.quaddicted.com/reviews/ad_v1_50final.html), and ran into no issues.
-
-If anything was to "break", I imagine it would be due to part of a maps logic/triggered events being tied to:
-* Expecting a specific monster entity type _(E.g., A door only opens if a specific Spawn enemy is killed)_
+Aside from the balance of the map as created by the original desiger, this may cause issues in situations where a maps logic/triggered events are tied to:
+* Expecting a specific monster entity type _(E.g., A door only opens if a specific Spawn enemy is killed, a Shambler only appears if a number of Death Knights are killed, etc.)_
 * Expecting a specific number of enemies on the map (I.e., These scripts will recude a maps total enemy count)
+* Some other situation I haven't thought of.
 
-I have yet to play a map with these kinds of triggers or logic. In the event of such an issue (or any other), you could easily revert to the original maps backup file that is generated when the scripts are run.
+In the event of such an issue (or any other), you could easily revert to the original maps backup file that is generated when the scripts are run.
 
 ## **Spawns Are The Worst**
 For me personally, I find that they ruin the flow of the game. They seem to have no discernible pattern, unlike every other enemy type, and can be used quite poorly in fan made maps. Coming across them changes the game from a fun run-and-gun shooter, to a corner-creeper, where you have to move slow and poke around corners to take the enemy out before continuing on running and gunning.
