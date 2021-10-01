@@ -72,7 +72,7 @@ To use the original map file, just delete the modified one, remove `.bak` from t
 ## **Does removing enemies from maps break anything?**
 Aside from the balance of the map as created by the original desiger, this may cause issues in situations where a maps logic/triggered events are tied to:
 * Expecting a specific monster entity type _(E.g., A door only opens if a specific Spawn enemy is killed, a Shambler only appears if a number of Death Knights are killed, etc.)_
-* Expecting a specific number of enemies on the map (I.e., These scripts will recude a maps total enemy count)
+* Expecting a specific number of enemies on the map (I.e., These scripts will reduce a maps total enemy count)
 * Some other situation I haven't thought of.
 
 In the event of such an issue (or any other), you could easily revert to the original maps backup file that is generated when the scripts are run.
